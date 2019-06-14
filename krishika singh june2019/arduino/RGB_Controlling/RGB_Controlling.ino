@@ -10,7 +10,9 @@
  *  ------------------------------------------------|
  *            Author: Kamini Singh                  |
  *              Version: 1.0.0                      |
- *  ------------------------------------------------
+ *  ------------------------------------------------|
+ *        Code Reviewed By : Abhishek Nair          |
+ *--------------------------------------------------
  */ 
 
 ////////////////////Code Begins/////////////////////
@@ -29,17 +31,19 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-digitalWrite(RedLed,0); //turning the RedLed on
-delay(wait);
-digitalWrite(RedLed,1); //turning the RedLed off
-delay(wait);
-digitalWrite(GreenLed,0); //turning the GreenLed on
-delay(wait);
-digitalWrite(GreenLed,1); //turning the GreenLed off 
-delay(wait);
-digitalWrite(BlueLed,0); //turning the BlueLed on
-delay(wait);
-digitalWrite(BlueLed,1); //turning the BlueLed off
-delay(wait);
+
+	digitalWrite(RedLed,0); //turning the RedLed on
+	delay(wait);
+	digitalWrite(RedLed,1); //turning the RedLed off
+	delay(wait);
+
+	digitalWrite(GreenLed,0); //turning the GreenLed on
+	delay(wait);
+	digitalWrite(GreenLed,1); //turning the GreenLed off 
+	delay(wait);
+
+	digitalWrite(BlueLed,0); //turning the BlueLed on
+	delay(wait);
+	digitalWrite(BlueLed,1); //turning the BlueLed off
+	delay(wait);
 }
